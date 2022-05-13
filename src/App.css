@@ -13,6 +13,191 @@
   }
 }
 
+.nav-color {
+  background-color: #fdf8f6;
+}
+
+.home {
+  background-color: #f5f6f9;
+  padding-bottom: 20px;
+}
+
+.home-top-background {
+  height: 600px;
+  background-color: #fdf8f6;
+}
+
+.home-top-background-img {
+  height: 550px;
+  background-image: url('./images/main_top.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: 0 10px 5px 10px
+}
+
+.home-top-text {
+  padding-top: 160px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-top-text {
+  padding-top: 160px;
+  padding-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-mid-text {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-mid {
+  margin: 0 20% 0 20%;
+}
+
+
+.home-mid > .nav-tabs .nav-item.show .nav-link, .home-mid > .nav-tabs .nav-link.active {
+  background: #3282F6;
+  color: blue;
+  line-height: normal;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+.home-mid > .nav-tabs {
+  border-bottom: none;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 201px;
+  margin: AUTO;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.tab-card-col {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  height: 200px;
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
+}
+
+.tab-card-col-11{
+  margin-right: 2%;
+  width: 49%;
+
+}
+
+.tab-card-col-12{
+  width: 49%;
+}
+
+.tab-card-col-2{
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 100%;
+}
+
+
+.help-top {
+  background-color: #fdf8f6;
+  height: 400px;
+}
+
+.help-text {
+  color: #333D4B;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group-text, .form-control {
+  background-color: #fdf8f6;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.help-search {
+  padding-top: 50px;
+  width: 500px;
+  line-height: 50px;
+  align-items: center;
+  margin: auto;
+}
+
+.help-search-icon {
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  color: #b0b8c1;
+  display: inline-block;
+  line-height: 0;
+}
+
+.help-mid {
+  margin: 0 20% 0 20%;
+}
+
+.help-mid .nav-tabs .nav-item.show .nav-link,
+.help-mid .nav-tabs .nav-link.active {
+  /* background: #3282F6; */
+  color: blue;
+  line-height: normal;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.help-mid .nav-tabs, .help-mid .nav-link {
+  color: gray;
+  border-bottom: none;
+  text-align: center;
+  margin: AUTO;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.accordion-header {
+background-color: #e3efff;
+}
+
+.accordion-body {
+  background-color: #e3efff;
+  text-align: left;
+  list-style-position: inside;
+  text-indent: -18px;
+  padding-left: 38px;
+}
+
+
+.btn-download {
+  border-color: #FF7720;
+  background-color: #FF7720;
+  color: white;
+  width: 170px;
+  height: 45px;
+  text-decoration: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,8 +209,28 @@
   color: white;
 }
 
+
+
+.cert-top {
+  background-color: #fdf8f6;
+  height: 400px;
+}
+
+.cert-text {
+  color: #333D4B;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
 .App-link {
-  color: #61dafb;
+  color: #6c757d;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +240,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.footer_term-wrapper {
+  display: flex;
+  margin: 0;
+  padding: 7px 0 20px;
+  list-style: none; 
+}
+
+.footer_term {
+  padding-right: 30px;
+}
+
+.footer-wrapper { 
+  background-color: #272a2e;
+}
+
+.error-page {
+  padding-top: 50px;
+  width: 98vw;
+  margin: 0;
+  
+}
+
+.error-page-img {
+  
+  /* background-image: url('./images/notfound.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 800px;
+
 }
