@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Pre-required
+
+### [Mac]
+
+### brew 설치
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+### Nodejs 설치
+> brew install node
+
+### Npx 설치
+sudo npm install npx -g
+
+### yarn 설치
+npm install yarn -g
+
+### vscode 설치
+https://code.visualstudio.com/
+
+### github 회원가입
+click join!
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
